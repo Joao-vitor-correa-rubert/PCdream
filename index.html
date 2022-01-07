@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+      <link rel="icon" href="https://i.ibb.co/dcCCqTt/computador-desktop.png" />
+        <title>Pc Dream</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/estilo.css"/>
+        <div class="logo"><a href=""><img src="https://i.ibb.co/k1XHnWH/logo.png" alt="logo" border="0"></a></div>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">        
+        <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+        <script type="text/javascript" src="js/jquery.glide.min.js"></script>
+</head>
+    <body
+        <nav>
+            <ul class="menu cf">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="produtos.html">produtos</a>
+                <li><a href="sobre.html">Sobre</a>
+                <li><a href="contatos.html">Contatos</a>
+</ul>
+</nav>
+    <!--começo da galeria de fotos da pagina principal-->
+    <div id="w"> 
+    <div class="slider">
+      <ul class="slides">
+        <li class="slide"><figure><img src="https://i.ibb.co/XxQY36J/slogan-fw.png"></figure></li>
+        <li class="slide"><figure><img src="https://i.ibb.co/KxFjQgc/computadores-fw.png"></figure></li>
+        <li class="slide"><figure><img src="https://i.ibb.co/K5YS34v/hardware-fw.png"></figure></li>
+        <li class="slide"><figure><img src="https://i.ibb.co/tC34RYL/perifericos-fw.png"></figure></li>
+</ul><!--fecha slides-->
+</div><!-- fecha .slider -->
+</div><!-- fecha #w -->
+    
+</body>
+<script type="text/javascript">
+  $(function(){
+    $('.slider').glide({
+      autoplay: 3500,
+      hoverpause: true, // set to false for nonstop rotate
+      arrowRightText: '&rarr;',
+      arrowLeftText: '&larr;'
+    });
+  });
+</script>
+</html>
